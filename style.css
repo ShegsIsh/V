@@ -13,13 +13,14 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-  /* Styles for small screens */
-  /* For example, you can adjust font sizes, margins, padding, etc. */
-  body {
-    font-size: 14px;
+  .image {
+    display: block; /* Change display to block for mobile devices */
+    text-align: center; /* Align images to the center horizontally */
   }
-  /* You can target specific elements as well */
-  .container {
-    padding: 10px;
+
+  .image img {
+    display: inline-block; /* Make images display inline-block */
+    margin: 10px; /* Add some space between images */
   }
 }
+
