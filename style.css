@@ -1,0 +1,13 @@
+body {
+  text-align: center; /* Align text to the center */
+}
+
+.image {
+  display: flex; /* Use flexbox for aligning images */
+  justify-content: center; /* Center images horizontally */
+  align-items: center; /* Center images vertically */
+}
+
+.image img {
+  margin: 10px; /* Add some space between images */
+}
