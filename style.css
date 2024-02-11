@@ -11,3 +11,15 @@ body {
 .image img {
   margin: 10px; /* Add some space between images */
 }
+
+@media only screen and (max-width: 768px) {
+  /* Styles for small screens */
+  /* For example, you can adjust font sizes, margins, padding, etc. */
+  body {
+    font-size: 14px;
+  }
+  /* You can target specific elements as well */
+  .container {
+    padding: 10px;
+  }
+}
